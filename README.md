@@ -1,5 +1,9 @@
 # Convert Colombian peso to USD
-
+* To spin up a version run
+  * `npm run start --ios`
+  * OR
+  * `npm run start`
+    * Select environment version from menu displayed
 * React Native
 * Expo
 
