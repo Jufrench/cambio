@@ -17,7 +17,8 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-          <Text style={{ fontSize: 20, marginBottom: 10 }}>Enter amount (Ingrese cantidad):</Text>
+          <Text style={{ fontSize: 20, marginBottom: 10 }}>Enter amount in Colombian pesos:</Text>
+          <Text style={{ fontSize: 20, marginBottom: 10 }}>(Cantidad en pesos Colombianos)</Text>
       <TextInput keyboardType="numeric" onChangeText={setInputValue} style={styles.textInput} value={inputValue} />
       <TouchableOpacity onPress={() => convert(inputValue)} style={styles.button}>
           <Text style={styles.buttonText}>Convert (Convertir)</Text>
